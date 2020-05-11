@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Boston</title>
+  </head>
+
+  <body>
+    <h1><div style="text-align:center"><font color="blue">Boston</font></div></h1>
+    <hr>
+    </br>
+    <h2><div style="text-align:center">Enter the values </div></h2>
+    </br>
+
+    <div class='container'>
+      <div class='row'>
+        <div class='col-4'>
+          <form method="POST" action="/predict">
+            
+            <div class="form-group" style="text-align:center">
+              <label for="CRIM"><p class="font-weight-bold">CRIM</p></label>
+              <input type="text" name="CRIM">
+              <small id="CRIMHelp" class="form-text text-muted">enter the value of CRIM</small>
+              </div>
+
+              <div class="form-group" style="text-align:center">
+                <label for="ZN"><p class="font-weight-bold">ZN</p></label>
+                <input type="text" name="ZN">
+                <small id="ZNHelp" class="form-text text-muted">enter the value of ZN</small>
+                </div>
+
+                <div class="form-group" style="text-align:center">
+                  <label for="INDUS"><p class="font-weight-bold">INDUS</p></label>
+                  <input type="text" name="INDUS">
+                  <small id="INDUSHelp" class="form-text text-muted">enter the value of INDUS</small>
+                  </div>
+
+                  <div class="form-group" style="text-align:center">
+                    <label for="NOX"><p class="font-weight-bold">NOX   </p></label>
+                    <input type="text" name="NOX">
+                    <small id="NOXHelp" class="form-text text-muted">enter the value of NOX</small>
+                    </div>
+
+                    <div class="form-group" style="text-align:center">
+                      <label for="RM"><p class="font-weight-bold">RM    </p></label>
+                      <input type="text" name="RM">
+                      <small id="RMHelp" class="form-text text-muted">enter the value of RM</small>
+                      </div>
+                    
+                      <div class="form-group" style="text-align:center">
+                        <label for="AGE"><p class="font-weight-bold">AGE   </p></label>
+                        <input type="text" name="AGE">
+                        <small id="AGEHelp" class="form-text text-muted">enter the value of AGE</small>
+                        </div>  
+                      
+                        <div class="form-group" style="text-align:center">
+                          <label for="RAD"><p class="font-weight-bold">RAD   </p></label>
+                          <input type="text" name="RAD">
+                          <small id="RADHelp" class="form-text text-muted">enter the value of RAD</small>
+                          </div>
+        
+                          <div class="form-group" style="text-align:center">
+                            <label for="PTRATIO"><p class="font-weight-bold">PTRATIO</p></label>
+                            <input type="text" name="PTRATIO">
+                            <small id="PTRATIOHelp" class="form-text text-muted">enter the value of PTRATIO</small>
+                            </div>
+        
+                            <div class="form-group" style="text-align:center">
+                              <label for="B"><p class="font-weight-bold">B      </p></label>
+                              <input type="text" name="B">
+                              <small id="BHelp" class="form-text text-muted">enter the value of B</small>
+                              </div>
+                            
+                              <div class="form-group" style="text-align:center">
+                                <label for="LSTAT"><p class="font-weight-bold">LSTAT</p></label>
+                                <input type="text" name="LSTAT">
+                                <small id="LSTATHelp" class="form-text text-muted">enter the value of LSTAT</small>
+                                </div>    
+
+                        
+                        <div class="form-group" style="text-align:center">
+                          
+                          <input class='btn btn-primary' type='submit' value='Submit' >
+                          
+                          </div>    
+            </form>
+
+          </div>
+          </div>
+          </div>
+  </body>
+
+</html>
